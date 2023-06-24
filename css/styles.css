@@ -31,6 +31,9 @@
     list-style: none;
   }
   
+  .container{
+    width: 1158px;
+  }
 
   .logo.link {
     font-family: 'Raleway', sans-serif;
