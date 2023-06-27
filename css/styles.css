@@ -25,6 +25,10 @@
     font-weight: inherit;
   }
   
+  img{
+    display: block;
+  }
+
   p {
     margin: 0;
     padding: 0;
@@ -39,7 +43,7 @@
   }
   
   .header{
-    border: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
     padding: 24px 0;
   }
 
@@ -49,7 +53,7 @@
   }
 
   .container{
-    max-width: 1128px;
+    max-width: 1158px;
 
     margin: 0 auto;
     box-sizing: border-box;
