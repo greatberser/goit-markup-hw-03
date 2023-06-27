@@ -61,6 +61,12 @@
     box-sizing: border-box;
   }
 
+  .text-container{
+    width: 232px;
+    text-align: center;
+    margin: 32px auto;
+  }
+
   .nav{
     display: flex;
     align-items: center;
@@ -238,15 +244,13 @@
 
   .list-item{
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
   }
 
   .team {
     background-color: #F4F4FD;
   }
 
-  .team h3, .team p{
-    text-align: center;
-  }
 
   .team h3{
     margin-top: 32px;
