@@ -273,9 +273,12 @@
     margin-top: 16px;
   }
 
+  .section:first-child{
+    padding: 188px;
+  }
+
   .section{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
   }
 
   .section:nth-child(3){
@@ -288,9 +291,8 @@
     flex-wrap: nowrap;
   }
 
-  .secondary-section .section-list li{
-    width: 264px;
-    height: 104px;
+  .secondary-section .section-list .section-list-item{
+    flex-basis: (calc((100% - 72px) / 4));
   }
 
   .title-section{
