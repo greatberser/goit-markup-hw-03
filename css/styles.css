@@ -1,3 +1,10 @@
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+
 :root {
     --primary-logo-color: #4D5AE5;
     --primary-color: #2E2F42;
@@ -31,11 +38,31 @@
     list-style: none;
   }
   
+  .header{
+    padding: 24px 0;
+  }
+
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .container{
-    width: 1128px;
+    max-width: 1128px;
 
     margin: 0 auto;
-    padding: 0 15px;
+    box-sizing: border-box;
+  }
+
+  .nav{
+    display: flex;
+    
+  }
+
+  .nav-menu, .address-list{
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
   }
 
   .logo.link {
@@ -88,6 +115,10 @@
     text-decoration: none;
   }
   
+  .address-list{
+    display: flex;
+  }
+
   .address-link.link:hover,
   .address-link.link:focus {
     color: var(--hover-color);
@@ -184,6 +215,20 @@
   .team {
     background-color: #F4F4FD;
   }
+
+  .team h3, .team p{
+    text-align: center;
+  }
+
+  .team h3{
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .team p{
+    margin-top: 0;
+    margin-bottom: 32px;
+  }
   
 
   .footer{
@@ -198,4 +243,18 @@
     letter-spacing: 0.02em;
     line-height: 1.5;
     color: #F4F4FD;
+  }
+
+  .section:not(:last-child) {
+    padding-bottom: 120px;
+  }
+
+  .section-list{
+    display: flex;
+    gap: 24px;
+  }
+
+  .secondary-section .section-list li{
+    width: 264px;
+    height: 104px;
   }
