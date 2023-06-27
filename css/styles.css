@@ -270,6 +270,7 @@
 
   .footer .link{
     display: inline-block;
+    margin-bottom: 16pxs;
   }
 
   .footer .text-link{
@@ -304,7 +305,7 @@
   }
 
   .section-list-item{
-    flex-basis: calc((100% - 3 * 24px)/4);
+    flex-basis: 264px;
   }
 
   .title-section{
