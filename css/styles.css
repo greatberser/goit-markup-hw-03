@@ -44,6 +44,7 @@
   }
   
   .header{
+    padding: 24px 0;
     border-bottom: 1px solid #E7E9FC;
   }
 
@@ -69,6 +70,7 @@
     display: flex;
     gap: 40px;
   }
+  
 
   .logo.link {
     font-family: 'Raleway', sans-serif;
@@ -104,6 +106,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+    padding: 24px 0;
   }
   
 
