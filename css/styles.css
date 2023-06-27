@@ -16,6 +16,7 @@
   body {
     background-color: #ffffff;
     color: var(--secondary-color);
+    max-width: 1440px;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -277,7 +278,7 @@
   .section-list{
     display: flex;
     gap: 24px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
 
   .secondary-section .section-list li{
