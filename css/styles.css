@@ -39,6 +39,7 @@
   }
   
   .header{
+    border: 1px solid #E7E9FC;
     padding: 24px 0;
   }
 
@@ -289,4 +290,15 @@
 
   .list-button{
     margin-bottom: 72px;
+    margin-left: 271px;
+  }
+
+  .list-category h2{
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
+
+  .list-category p{
+    margin-top: 0;
+    margin-bottom: 32px;
   }
