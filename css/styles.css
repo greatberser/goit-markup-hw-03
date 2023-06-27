@@ -63,7 +63,7 @@
 
   .nav{
     display: flex;
-    
+    align-items: center;
   }
 
   .nav-menu, .address-list{
