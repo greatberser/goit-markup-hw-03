@@ -278,7 +278,7 @@
   }
 
   .section:first-child{
-    padding: 188px;
+    padding: 188px 0;
   }
 
   .section{
