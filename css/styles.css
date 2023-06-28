@@ -166,6 +166,7 @@
   .btn:focus{
     background-color: var(--hover-color);
     color: #ffffff;
+    border: 1px solid transparent;
   }
 
   .btn-orders{
@@ -325,6 +326,10 @@
   .list-button{
     margin-bottom: 72px;
     margin-left: 271px;
+  }
+
+  .list-category{
+    justify-content: space-between;
   }
 
   .list-category h2{
