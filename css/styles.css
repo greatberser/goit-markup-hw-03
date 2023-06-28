@@ -152,7 +152,7 @@
     background-color: var(--secondary-background-color);
     cursor: pointer;
     color: #4D5AE5;
-    border: none;
+    border: 1px solid #e7e9fc;
     border-radius: 4px;
 
     padding: 12px 24px;
@@ -178,6 +178,7 @@
 
     min-width: 169px;
     height: 56px;
+    border: none;
   }
   
   .primary-section{
