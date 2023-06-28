@@ -329,7 +329,7 @@
   }
 
   .list-category{
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
   .list-category h2{
