@@ -17,6 +17,8 @@
     background-color: #ffffff;
     color: var(--secondary-color);
     max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -325,7 +327,7 @@
 
   .list-button{
     margin-bottom: 72px;
-    margin-left: 271px;
+    justify-content: space-between;
   }
 
   .list-category{
