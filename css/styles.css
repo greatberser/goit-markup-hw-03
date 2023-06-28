@@ -69,6 +69,13 @@
     margin: 32px 16px;
   }
 
+  .app-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    box-sizing: border-box;
+  }
+
   .nav{
     display: flex;
     align-items: center;
@@ -333,16 +340,6 @@
   .list-category{
     flex-wrap: wrap;
     row-gap: 48px; 
-  }
-
-  .list-category h2{
-    margin-top: 32px;
-    margin-bottom: 0;
-  }
-
-  .list-category p{
-    margin-top: 0;
-    margin-bottom: 32px;
   }
 
   .visually-hidden {
