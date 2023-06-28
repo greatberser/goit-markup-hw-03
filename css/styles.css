@@ -327,11 +327,12 @@
 
   .list-button{
     margin-bottom: 72px;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   .list-category{
     flex-wrap: wrap;
+    row-gap: 48px; 
   }
 
   .list-category h2{
